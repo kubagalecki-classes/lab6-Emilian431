@@ -11,8 +11,7 @@ std::vector< char > foo(std::list< Human >& people)
     std::vector< char > ret_v(people.size());
 
     // Twoja implementacja tutaj
-    std::vector< char > ret_v(people.size());
-
+  
     std::transform(
        people.begin(), people.end(), ret_v.rbegin(), [](Human& t) 
        { 
